@@ -1,14 +1,14 @@
-from play_shuffle import play_shuffle
+from src.play_shuffle import play_shuffle
 
 def play_shuffle_VLC():
     
-    play_shuffle(libreria, playList)
+    play_shuffle(libreria, playlist)
     # imprimir_canciones()
     # lanzarVLC()
     print(__name__)
 
 
-playList = {}
+playlist = {}
 # playList ={ 1: "titulo cancion", 2: "titulo cancion" ... }
 
 libreria = {
