@@ -34,11 +34,3 @@ def play_shuffle(libreria, playlist):
             print("Todas las canciones han sido añadidas")
 
     assert check_play_shuffle(playlist), "cancion repetida"
-=======
-    # Comprobacion de variables
-    assert isinstance(libreria, dict)
-    assert isinstance(playlist, dict)
-
->>>>>>> 3426acc5c10214ac7a3adc14a1b4797cdcb4e7ee
-
-
