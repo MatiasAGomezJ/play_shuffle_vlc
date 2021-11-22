@@ -1,12 +1,9 @@
-<<<<<<< HEAD
-=======
 from src.iniciar_playlist import iniciar_playlist
 from src.seleccionar_cancion_random import seleccionar_cancion_random
 from src.check_play_shuffle import check_play_shuffle
 
 def play_shuffle(libreria, playlist):
     
-<<<<<<< HEAD
     # Comprobaciones
     assert isinstance(libreria, dict), 'libreria no es un diccionario'
     assert isinstance(playlist, dict), 'playlist no es un diccionario'
@@ -36,12 +33,3 @@ def play_shuffle(libreria, playlist):
             print("Todas las canciones han sido añadidas")
 
     assert check_play_shuffle(playlist), "cancion repetida"
-=======
-    # Comprobacion de variables
-    assert isinstance(libreria, dict)
-    assert isinstance(playlist, dict)
-
->>>>>>> 3426acc5c10214ac7a3adc14a1b4797cdcb4e7ee
-
-
->>>>>>> 3d237d5ce58999d5e0bdea5fe9b59b1d2964dc4c

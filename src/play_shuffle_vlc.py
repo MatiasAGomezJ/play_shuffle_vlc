@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 from src.play_shuffle import play_shuffle
 
 def play_shuffle_VLC():
@@ -38,4 +36,3 @@ libreria = {
 }
 
 play_shuffle_VLC()
->>>>>>> 3d237d5ce58999d5e0bdea5fe9b59b1d2964dc4c

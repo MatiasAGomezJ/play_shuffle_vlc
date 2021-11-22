@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-def iniciar_playlist():
-=======
 def iniciar_playlist(indice_cancion):
 
     clave_cancion = indice_cancion
@@ -20,4 +17,4 @@ def iniciar_playlist(indice_cancion):
         return clave_cancion
 
     return añadir_cancion
->>>>>>> 3d237d5ce58999d5e0bdea5fe9b59b1d2964dc4c
+
