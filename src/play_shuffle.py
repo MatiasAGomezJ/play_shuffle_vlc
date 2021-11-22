@@ -4,7 +4,6 @@ from src.check_play_shuffle import check_play_shuffle
 
 def play_shuffle(libreria, playlist):
     
-<<<<<<< HEAD
     # Comprobaciones
     assert isinstance(libreria, dict), 'libreria no es un diccionario'
     assert isinstance(playlist, dict), 'playlist no es un diccionario'
